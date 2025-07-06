@@ -1,0 +1,16 @@
+{
+  "name": "renderengine",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+  },
+  "devDependencies": {
+    "prettier": "^3.5.3",
+    "vite": "^6.3.3"
+  }
+}
