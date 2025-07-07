@@ -3,7 +3,6 @@ import { AnimationMixer } from "./animation/AnimationMixer"
 import { AxesHelper } from "./helpers/AxesHelper"
 import { BoxGeometry } from "./geometries/BoxGeometry"
 import { Clock } from "./core/Clock"
-import { DirectionalLight } from "./lights/DirectionalLight"
 import { GLTFLoader } from "./jsm/loaders/GLTFLoader"
 import { LoadingManager } from "./loaders/LoadingManager"
 import { Mesh } from "./objects/Mesh"
@@ -27,6 +26,7 @@ import { ShaderPass } from "./jsm/postprocessing/ShaderPass"
 import { HorizontalBlurShader } from "./jsm/shaders/HorizontalBlurShader"
 import { CopyShader } from "./jsm/shaders/CopyShader"
 import { VerticalBlurShader } from "./jsm/shaders/VerticalBlurShader"
+import { DirectionalLight } from "./lights/DirectionalLight"
 
 const loadingManager = new LoadingManager()
 loadingManager.onProgress = (url, loaded, total) => {

@@ -3,7 +3,6 @@ import { AnimationMixer } from "./animation/AnimationMixer"
 import { AxesHelper } from "./helpers/AxesHelper"
 import { BoxGeometry } from "./geometries/BoxGeometry"
 import { Clock } from "./core/Clock"
-import { DirectionalLight } from "./lights/DirectionalLight"
 import { GLTFLoader } from "./jsm/loaders/GLTFLoader"
 import { LoadingManager } from "./loaders/LoadingManager"
 import { Mesh } from "./objects/Mesh"
@@ -43,6 +42,7 @@ import { GridHelper } from "./helpers/GridHelper"
 import { PolarGridHelper } from "./helpers/PolarGridHelper"
 import { PointLightHelper } from "./helpers/PointLightHelper"
 import { SkeletonHelper } from "./helpers/SkeletonHelper"
+import { DirectionalLight } from "./lights/DirectionalLight"
 
 const loadingManager = new LoadingManager()
 loadingManager.onProgress = (url, loaded, total) => {
